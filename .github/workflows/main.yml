@@ -44,7 +44,7 @@ jobs:
       - name: Run a multi-line script
         run: |
           git config --global user.email "boide03@gmail.com"
-          git config --global user.name "vuongicesmile"
+          git config --global user.name "Nguyễn Quốc Vương"
           cd dist
           git init
           git add .
