@@ -44,7 +44,7 @@ jobs:
       - name: Run a multi-line script
         run: |
           git config --global user.email "boide03@gmail.com"
-          git config --global user.name "vuongicesmile"
+          git config remote.origin.url 'https://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@github.com/vuongicesmile/testgithubpages.git
           cd dist
           git init
           git add .
