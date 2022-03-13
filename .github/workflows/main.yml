@@ -43,8 +43,11 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          git config remote.origin.url 'https://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@github.com/vuongicesmile/testgithubpages.git
           cd dist
+          $ git config credential.helper store
+          $ git clone https://github.com/vinasupport.com.git
+          Username for 'https://github.com': vuongicesmile
+          Password for 'https://USERNAME@github.com': Asdfgasd01886440235300
           git init
           git add .
           git commit -m "Build for deploy"
