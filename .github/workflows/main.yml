@@ -44,12 +44,6 @@ jobs:
       - name: Run a multi-line script
         run: |
           cd dist
-          ls
-          git status
-          $ git config credential.helper store
-          $ git clone https://github.com/vinasupport.com.git
-          Username for 'https://github.com': vuongicesmile
-          Password for 'https://USERNAME@github.com': Asdfgasd01886440235300
           git init
           git add .
           git commit -m "Build for deploy"
