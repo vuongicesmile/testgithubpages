@@ -47,5 +47,7 @@ jobs:
           git init
           git add .
           git commit -m "Build for deploy"
-          git push master:gh-pages
+          git config --global user.email "boide@gmail.com"
+          git config --global user.name "vuongicesmile"
+          git push -f https://github.com/vuongicesmile/testgithubpages.git master:gh-pages
           cd ..
