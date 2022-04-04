@@ -44,10 +44,10 @@ jobs:
       - name: Run a multi-line script
         run: |
           cd dist
+          git config --global user.name <vuongicesmile>
+          git config --global user.email <boide03@gmail.com>
           git init
           git add .
           git commit -m "Build for deploy"
-          git config --global user.email "boide@gmail.com"
-          git config --global user.name "vuongicesmile"
           git push -f https://github.com/vuongicesmile/testgithubpages.git master:gh-pages
           cd ..
